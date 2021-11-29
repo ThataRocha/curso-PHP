@@ -7,25 +7,27 @@
     <!-- Fonte-->
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="recursos/css/estilo.css">
-    <title>Curso do PHP</title>
+    <link rel="stylesheet" href="recursos/css/exercicio.css">
+    <title>Exercício</title>
 </head>
-<body>
+<body class="exercicio">
     <header class="cabecalho">
         <h1>Curso de PHP</h1>
-        <h2>Índice dos Exercícios</h2>
+        <h2>Visualização do Exercício</h2>
     </header>
+    <nav class="navegacao">
+        <a href=<?= "/{$_GET['dir']}/{$_GET['file']}.php" ?>
+        class="verde"> Sem formatação</a>
+        <a href="index.php" class="vermelho">Voltar</a>
+    </nav>
     <main class="principal">
         <div class="conteudo">
-            <div class="modulos">
-                <div class="modulo verde">
-                    <h3>Módulo 01</h3>
-                    <ul>
-                        <li> <a href="exercicio.php?dir=teste&file=teste" >Exercício A</a></li>
-                        <li> <a href="#" >Exercício B</a></li>
-                        <li> <a href="#" >Exercício C</a></li>
-                    </ul>
-                </div>
-            </div>
+            
+           <?php
+            //include('teste/teste.php');
+            //include($_GET['dir']."/". $_GET['file'].".php");
+            include(__DIR__."/{$_GET['dir']}/{$_GET['file']}.php");
+         ?>
         </div>
     </main>
     <footer class="rodape">
