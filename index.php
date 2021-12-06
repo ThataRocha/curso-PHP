@@ -49,9 +49,11 @@
                             <a href="exercicio.php?dir=Tipos&file=aritmeticas"> Operações Aritmétricas</a>
                         </li>  
                         <li> 
-                            <a href="exercicio.php?dir=Tipos&file=Desafio_precedencia">  Desafio de Precedência</a>
-                           
-                        </li>                     
+                            <a href="exercicio.php?dir=Tipos&file=Desafio_precedencia">  Desafio de Precedência</a>                           
+                        </li>   
+                        <li> 
+                            <a href="exercicio.php?dir=Tipos&file=string">  Tipo String</a>                           
+                        </li>                    
                     </ul>
                 </div>
             </div>
