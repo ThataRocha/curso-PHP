@@ -56,6 +56,17 @@
                         </li>                    
                     </ul>
                 </div>
+                <div class="modulo azu">
+                    <h3>Tipos</h3>
+                    <ul>
+                        <li> 
+                            <a href="exercicio.php?dir=variaveis&file=basico"> Variáveis</a>
+                        </li>     
+                        <li> 
+                            <a href="exercicio.php?dir=variaveis&file=basico"> Variáveis</a>
+                        </li>     
+                    </ul>
+                </div>
             </div>
         </div>
     </main>
