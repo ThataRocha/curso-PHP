@@ -56,7 +56,7 @@
                         </li>                    
                     </ul>
                 </div>
-                <div class="modulo azu">
+                <div class="modulo azul">
                     <h3>Tipos</h3>
                     <ul>
                         <li> 
@@ -67,6 +67,12 @@
                         </li>     
                         <li> 
                             <a href="exercicio.php?dir=variaveis&file=atribuicoes"> Atribuições</a>
+                        </li>
+                         <li> 
+                            <a href="exercicio.php?dir=variaveis&file=variaveis_variaveis"> Variáveis Variáveis</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=desafio_variaveis"> Desafio Variáveis</a>
                         </li>
                     </ul>
                 </div>
