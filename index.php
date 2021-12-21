@@ -77,6 +77,9 @@
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=valor_referencia"> Valor X Referência</a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=constantes"> Constantes</a>
+                        </li>
                     </ul>
                 </div>
             </div>
